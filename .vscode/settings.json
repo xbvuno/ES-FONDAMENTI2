@@ -9,6 +9,14 @@
         "deque": "cpp",
         "vector": "cpp",
         "string_view": "cpp",
-        "span": "cpp"
+        "span": "cpp",
+        "charconv": "cpp",
+        "optional": "cpp",
+        "ranges": "cpp",
+        "system_error": "cpp",
+        "functional": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp"
     }
 }
