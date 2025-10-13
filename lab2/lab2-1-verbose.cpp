@@ -73,8 +73,8 @@ sottomatrice_quad trova_max_sottomatrice_quad(int* mat, int n) {
 }
 
 void stampa_mat_quad(int* mat, int n) {
-    for(int i=0; i < n; i++) {              // è inutile iniziare a controllare dall'ultima riga
-        for(int j=0; j < n; j++) {          // stesso per la colonna
+    for(int i=0; i < n; i++) { 
+        for(int j=0; j < n; j++) {
             cout << *(mat + mat_coord(n, i, j)) << "\t ";
         }
         cout << endl;
